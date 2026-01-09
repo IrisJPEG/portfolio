@@ -379,6 +379,25 @@ footer {
 
 
 
+  .old-artwork-row {
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .old-artwork-image img {
+        width: 70%;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    body > main > section.about-me {
+        width: 100% !important;   /* overrides inline 60% */
+        box-sizing: border-box;
+    }
+body > main > section.about-me a[href^="mailto:"] {
+        font-size: 20px;
+    }
 
 
     .footer-content {
@@ -388,3 +407,4 @@ footer {
 
     
 }
+
